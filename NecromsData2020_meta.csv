@@ -1,0 +1,50 @@
+What,"Soil samples (n=5) and farm management data across broad range of edaphic, climate and management"
+Where,"9 farms (3 land use intensity levels each) in UK agricultural grasslands, incubated in the lab for the CUE assay"
+When,"Spring 2016 sampling and lab incubation, processed in order of collection, stored < 2 wks at 5oC"
+How,"Interviews with farm managers, soil sampling (15 cm depth x 5 cm diameter cores) from transect across 3 fields of same soil type, different land management"
+Why,NERC U-GRASS project - understanding microbial controls on grassland C cycling (Lead: Rob Griffiths CEH; Lancaster Lead: Nick Ostle; Lancaster-CEH lead: Jeanette Whitaker)
+Who,"Collection: Kate Buckeridge (PDRA, Lancaster University), Kelly Mason (Staff scientist, CEH), Jeremy Puissant (PDRA, CEH). Interpretation: all authors"
+Completeness,"Salisbury, different cores used for soil variables and microbial sequencing in the mid-level LUI, so OTUs dropped from analysis. PLFA-SIP in 3 reps from 5 farms only"
+,
+Data column title ,comments
+ID,codes for sample names
+Site,nearest town
+LUIlevel,based on farm manager interview
+lat,decimal degrees
+long,decimal degrees
+MAT,"mean annual temperature, degrees C"
+MAP,"mean annual precipitation, mm"
+LUIwT,index score (Bluthgen 2014) with tillage
+Nit,"LUI component, nitrogen added, kg N ha-1 y-1"
+Mow,"LUI component, mows y-1"
+Graze,"LUI component, livestock unit days of grazing ha-1 y-1"
+Till,"LUI component, deep ploughs y-1"
+Sand,"%, average from n=3"
+Silt,"%, average from n=3"
+Clay,"%, average from n=3"
+pH,"pH, ave of two machines"
+BD,"bulk density, g cm-3"
+totN,% N
+totC,% organic C
+C:N,molar ratio (%C*12)/(%N*14)
+totalP,"from Jeremy, mg/kg, average value used when diff cores (PD, A)"
+CUE_G,site specific CUE for 13C-glucose
+CUE_N,site specific CUE for 13C-necromass
+13CO2_G,site specific 13C-CO2 (ug/g) for 13C-glucose
+13CO2_N,site specific 13C-CO2 (ug/g) for 13C-necromass
+13MBC_G,site specific 13C-MBC (ug/g) for 13C-glucose
+13MBC_N,site specific 13C-MBC (ug/g) for 13C-necromass
+16Spcoa1,"otu table, remove zero rows and taxonomy column, transpose, hellinger transform, pcoa"
+16Spcoa2,"otu table, remove zero rows and taxonomy column, transpose, hellinger transform, pcoa"
+ITSpcoa1,"otu table, remove zero rows and taxonomy column, transpose, hellinger transform, pcoa"
+ITSpcoa2,"otu table, remove zero rows and taxonomy column, transpose, hellinger transform, pcoa"
+qCO2G,qCO2 (ug substrate-derived CO2-C mg MBC-1 h-1)
+growthG,Growth rate (ng substrate-C g-1 h-1)
+qBiomassC,"qBiomass C (ug substrate-C mg MBC-1 h-1), this is also turnover"
+qCO2N,qCO2 (ug substrate-derived CO2-C mg MBC-1 h-1)
+growthN,Growth rate (ng substrate-C g-1 h-1)
+qBiomassN,"qBiomass C (ug substrate-C mg MBC-1 h-1), this is also turnover"
+13CplfaG1,"substrate derived plfas, bray-curtis distance, centring, PC rotation, halfchange scaling, nmds first axis scores"
+13CplfaG2,"substrate derived plfas, bray-curtis distance, centring, PC rotation, halfchange scaling, nmds second axis scores"
+13CplfaN1,"substrate derived plfas, bray-curtis distance, centring, PC rotation, halfchange scaling, nmds first axis scores"
+13CplfaN2,"substrate derived plfas, bray-curtis distance, centring, PC rotation, halfchange scaling, nmds second axis scores"
